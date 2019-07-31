@@ -40,9 +40,9 @@ void main(void)
     
     enableWPUA(3); //Enable Weakpull Ups PORTA.3
     
-     __delay_ms(50);
+    __delay_ms(50);  //If you change the CPU Frequency Update _XTAL_FREQ in device.h
      
-      digitalWrite(0,1); //Set PORTA.0 High - Bring Z80 out of reset.
+    digitalWrite(0,1); //Set PORTA.0 High - Bring Z80 out of reset.
     
     
     
