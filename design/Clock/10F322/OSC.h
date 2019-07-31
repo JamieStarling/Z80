@@ -1,0 +1,32 @@
+/*
+ * File:  OSC.h
+ * Author: Jamie Starling - JamieStarling.com 
+ *
+ * Created on:  July 21, 2019, 10:54 AM
+ * 
+ * Copyright 2018 - 2019 Jamie Starling
+
+Free for Personal Use.  
+Restricted Commercial Use  : Please Contact Jamie at jamie@jamiestarling.com for Terms.
+
+THE SOFTWARE IS PROVIDED ?AS IS?, WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED,INCLUDING BUT NOT LIMITED TO THE WARRANTIES
+OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM,
+DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
+ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+DEALINGS IN THE SOFTWARE.
+
+ */
+
+#ifndef OSC_
+#define	OSC_
+
+uint8_t cpuFreqSelect(uint16_t speed);
+void clockReferenceOut ( int8_t ClockOut);
+
+
+
+
+
+#endif	/* OSC_ */
