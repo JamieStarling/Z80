@@ -166,7 +166,7 @@ uint8_t digitalRead (int8_t pin)
             return (PORTAbits.RA2);
             
         case 3 : //Port RA.3
-            return (PORTAbits.RA2);
+            return (PORTAbits.RA3);
             
         default : //Value out of range - return 255
         return 0xFF;
@@ -183,25 +183,22 @@ uint8_t enableWPUA (int8_t pin)
 	{
 		case 0 : //Port RA.0
              WPUAbits.WPUA0 = 1;
+             return 0;
         
         case 1: //Port RA.1
             WPUAbits.WPUA1 = 1;
+            return 0;
             
         case 2: //Port RA.2
-            WPUAbits.WPUA2 = 1;
+            WPUAbits.WPUA2 = 1;            
+            return 0;
             
         case 3 : //Port RA.3
             WPUAbits.WPUA3 = 1;
+            return 0;
             
         default : //Value out of range - return 255
-        return 0xFF;
-        
-	
-	
-	
-	}
-	
-	
-	
+        return 0xFF;	
+	}	
 }	
 	
